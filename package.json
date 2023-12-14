@@ -1,0 +1,52 @@
+{
+  "name": "hyderabadilang",
+  "version": "0.1.0",
+  "description": "CLI for hyderabadi-lang",
+  "source": "src/index.ts",
+  "main": "bin/index.js",
+  "bin": {
+    "miyabhaibolte": "./bin/index.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "dev": "node --loader ts-node/esm",
+    "build": "tsup src/* --dts --outDir bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohammad-Palla/hyderabadi-lang"
+  },
+  "keywords": [
+    "programming",
+    "language",
+    "hyderabadi-lang",
+    "hl",
+    "javascript",
+    "biryani",
+    "typescript"
+  ],
+  "contributors": [
+    {
+      "name": "Mohammad Palla",
+      "url": "https://github.com/mohammad-palla"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mohammad-Palla/hyderabadi-lang/issues"
+  },
+  "homepage": "https://github.com/Mohammad-Palla/hyderabadi-lang#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "chalk": "^5.0.0",
+    "config": "*",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.4.0",
+    "tsconfig": "*",
+    "tsup": "^5.11.11",
+    "yargs": "^17.3.1"
+  }
+}
