@@ -8,7 +8,7 @@
 <h2 align="center">Installation</h2>
 
 ```
-npm i -g hyderabadilang
+npm i hyderabadilang
 ```
 
 <h2 align="center">Usage</h2>
