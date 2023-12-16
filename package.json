@@ -1,6 +1,6 @@
 {
   "name": "hyderabadilang",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "CLI for hyderabadi-lang",
   "source": "src/index.ts",
   "main": "bin/index.js",

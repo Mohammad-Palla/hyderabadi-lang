@@ -8,7 +8,7 @@
 <h2 align="center">Installation</h2>
 
 ```
-npm i hyderabadilang
+npm i -g hyderabadilang
 ```
 
 <h2 align="center">Usage</h2>
@@ -19,7 +19,7 @@ npm i hyderabadilang
 
 ```
 biryani shuru
-  bolo yaroo "aayin... baigan";
+  bolo yaaro "aayin... baigan";
 biryani barkhast
 
 ```
@@ -53,14 +53,14 @@ This too
 ```
 
 <h3 align="center">Variables</h3>
-<p align="center">Variables can be declared using <code>dekho yaroo ye hai</code>.</p>
+<p align="center">Variables can be declared using <code>dekho yaaro ye hai</code>.</p>
 
 ```
 
 biryani shuru
-  dekho yaroo ye hai a = 10;
-  dekho yaroo ye hai b = "two";
-  dekho yaroo ye hai c = 15;
+  dekho yaaro ye hai a = 10;
+  dekho yaaro ye hai b = "two";
+  dekho yaaro ye hai c = 15;
   a = a + 1;
   b = 21;
   c *= 2;
@@ -73,29 +73,29 @@ biryani barkhast
 ```
 
 biryani shuru
-  dekho yaroo ye hai a = 10;
-  dekho yaroo ye hai b = 10 + (15*20);
-  dekho yaroo ye hai c = "two";
-  dekho yaroo ye hai d = 'ok';
-  dekho yaroo ye hai e = nalla;
-  dekho yaroo ye hai f = sahi;
-  dekho yaroo ye hai g = galat;
+  dekho yaaro ye hai a = 10;
+  dekho yaaro ye hai b = 10 + (15*20);
+  dekho yaaro ye hai c = "two";
+  dekho yaaro ye hai d = 'ok';
+  dekho yaaro ye hai e = nalla;
+  dekho yaaro ye hai f = sahi;
+  dekho yaaro ye hai g = galat;
 biryani barkhast
 ```
 
 <h3 align="center">Built-ins</h3>
-<p align="center">Use <code>bolo yaroo</code> to print anything to console.</p>
+<p align="center">Use <code>bolo yaaro</code> to print anything to console.</p>
 
 ```
 
 biryani shuru
-  bolo yaroo "Hello World";
-  dekho yaroo ye hai a = 10;
+  bolo yaaro "Hello World";
+  dekho yaaro ye hai a = 10;
   {
-    dekho yaroo ye hai b = 20;
-    bolo yaroo a + b;
+    dekho yaaro ye hai b = 20;
+    bolo yaaro a + b;
   }
-  bolo yaroo 5, 'ok', nalla , sahi , galat;
+  bolo yaaro 5, 'ok', nalla , sahi , galat;
 biryani barkhast
 ```
 
@@ -105,11 +105,11 @@ biryani barkhast
 ```
 
 biryani shuru
-  dekho yaroo ye hai a = 10;
+  dekho yaaro ye hai a = 10;
   agar patthe (a < 25) {
-   bolo yaroo "a is less than 25";
+   bolo yaaro "a is less than 25";
   } sub hath diye to {
-   bolo yaroo "a is greater than or equal to 25";
+   bolo yaaro "a is greater than or equal to 25";
   }
 biryani barkhast
 ```
@@ -120,18 +120,18 @@ biryani barkhast
 ```
 
 biryani shuru
-  dekho yaroo ye hai a = 0;
+  dekho yaaro ye hai a = 0;
   jab tak ye hai (a < 10) {
    a += 1;
    agar patthe (a == 5) {
-    bolo yaroo "andar se bolo yaroo ", a;
+    bolo yaaro "andar se bolo yaaro ", a;
     agla dekho baigan;
    }
    agar patthe (a == 6) {
     bas karo baigan;
    }
-   bolo yaroo a;
+   bolo yaaro a;
   }
-  bolo yaroo "done";
+  bolo yaaro "done";
 biryani barkhast
 ```

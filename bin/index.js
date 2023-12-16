@@ -292,8 +292,8 @@ var require_dist = __commonJS({
           NULL_TYPE: null,
           BIRYANI_SHURU_TYPE: "biryani shuru", // hi bhai // start
           BIRYANI_BARKHAST_TYPE: "biryani barkhast", // bye bhai // end
-          BOLO_YAROO_TYPE: "bolo yaroo", // bol bhai // print
-          DEKHO_YAROO_YE_HAI_TYPE: "dekho yaroo ye hai", // bhai ye hai // var declaration
+          BOLO_YAROO_TYPE: "bolo yaaro", // bol bhai // print
+          DEKHO_YAROO_YE_HAI_TYPE: "dekho yaaro ye hai", // bhai ye hai // var declaration
           AGAR_PATTHE: "agar patthe", // agar bhai // if
           SUB_HATH_DIYE_TO: "sub hath diye to", // warna bhai // else
           NAI_TO_PATTHE: "nai to patthe", // nahi to bhai // else-if
@@ -338,9 +338,9 @@ var require_dist = __commonJS({
             regex: /^\bbiryani barkhast\b/,
             tokenType: TokenTypes.BIRYANI_BARKHAST_TYPE,
           },
-          { regex: /^\bbolo yaroo\b/, tokenType: TokenTypes.BOLO_YAROO_TYPE },
+          { regex: /^\bbolo yaaro\b/, tokenType: TokenTypes.BOLO_YAROO_TYPE },
           {
-            regex: /^\bdekho yaroo ye hai\b/,
+            regex: /^\bdekho yaaro ye hai\b/,
             tokenType: TokenTypes.DEKHO_YAROO_YE_HAI_TYPE,
           },
           { regex: /^\bagar patthe\b/, tokenType: TokenTypes.AGAR_PATTHE },
@@ -1107,7 +1107,7 @@ var require_dist = __commonJS({
               };
             }
             throw new SyntaxError(
-              `aree yaroo baigan mai mila diye code!!...Unexpected token: "${string[0]}"`
+              `aree yaaro baigan mai mila diye code!!...Unexpected token: "${string[0]}"`
             );
           }
           _matched(regex, string) {
@@ -1407,7 +1407,7 @@ var require_dist = __commonJS({
       declare(identifier, value) {
         if (this._variables.has(identifier)) {
           throw new RuntimeException(
-            `Variable "${identifier}" pehle se exist karta hai yaroo, wapas kyu banana ??`
+            `Variable "${identifier}" pehle se exist karta hai yaaro, wapas kyu banana ??`
           );
         }
         this._variables.set(identifier, value);
@@ -1500,7 +1500,7 @@ var require_dist = __commonJS({
         case "/":
           if (operands.right === 0) {
             throw new RuntimeException(
-              `aree yaroo maths break kar diye tum zero se divide kar ke`
+              `aree yaaro maths break kar diye tum zero se divide kar ke`
             );
           }
           if (checkNumberOperands(operands)) {
@@ -1543,7 +1543,7 @@ var require_dist = __commonJS({
           return operands.left || operands.right;
         default:
           throw new InvalidStateException(
-            `Unsupported operator: ${operator} ye konsa operator hai yaroo`
+            `Unsupported operator: ${operator} ye konsa operator hai yaaro`
           );
       }
     }
