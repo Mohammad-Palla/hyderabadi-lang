@@ -100,7 +100,7 @@ biryani barkhast
 ```
 
 <h3 align="center">Conditionals</h3>
-<p align="center">Bhailang supports simple if else construct , <code>agar patthe</code> block will execute if condition is <code>sahi</code> and <code>sub hath diye to</code> block will execute if condition is <code>galat</code>.</p>
+<p align="center">Hyderabadilang supports simple if else construct , <code>agar patthe</code> block will execute if condition is <code>sahi</code> and <code>sub hath diye to</code> block will execute if condition is <code>galat</code>.</p>
 
 ```
 
